@@ -1,0 +1,1466 @@
+.home {
+  background-color: #fff3f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div {
+  background-color: var(--light);
+  width: 1152px;
+  height: 2346px;
+  position: relative;
+}
+
+.home .overlap {
+  position: absolute;
+  width: 1152px;
+  height: 991px;
+  top: 0;
+  left: 0;
+}
+
+.home .rectangle {
+  position: absolute;
+  width: 1152px;
+  height: 78px;
+  top: 0;
+  left: 0;
+  background-color: var(--primary);
+}
+
+.home .text-wrapper {
+  position: absolute;
+  width: 250px;
+  top: 17px;
+  left: 148px;
+  font-family: "Italianno-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-2 {
+  position: absolute;
+  width: 115px;
+  top: 26px;
+  left: 597px;
+  font-family: "Heebo-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.home .text-wrapper-3 {
+  position: absolute;
+  width: 115px;
+  top: 26px;
+  left: 730px;
+  font-family: "Heebo-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-4 {
+  position: absolute;
+  width: 115px;
+  top: 26px;
+  left: 894px;
+  font-family: "Heebo-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .rectangle-2 {
+  position: absolute;
+  width: 1152px;
+  height: 396px;
+  top: 595px;
+  left: 0;
+  background-color: #e5daf9;
+}
+
+.home .rectangle-3 {
+  position: absolute;
+  width: 418px;
+  height: 295px;
+  top: 664px;
+  left: 148px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px #bbe1fa40;
+}
+
+.home .picture {
+  position: absolute;
+  width: 316px;
+  height: 180px;
+  top: 762px;
+  left: 199px;
+}
+
+.home .rectangle-4 {
+  position: absolute;
+  width: 418px;
+  height: 295px;
+  top: 664px;
+  left: 586px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.home .whatsapp-image {
+  position: absolute;
+  width: 299px;
+  height: 204px;
+  top: 740px;
+  left: 647px;
+}
+
+.home .text-wrapper-5 {
+  position: absolute;
+  width: 374px;
+  top: 676px;
+  left: 171px;
+  font-family: "Heebo-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--dark-color);
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .autonomous-VTOL {
+  position: absolute;
+  width: 374px;
+  top: 676px;
+  left: 606px;
+  font-family: "Heebo-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--dark-color);
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-6 {
+  position: absolute;
+  height: 60px;
+  top: 601px;
+  left: 148px;
+  font-family: "Heebo-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-7 {
+  position: absolute;
+  width: 208px;
+  top: 621px;
+  left: 796px;
+  font-family: "Heebo-Regular", Helvetica;
+  font-weight: 400;
+  color: #458af8;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .element {
+  position: absolute;
+  width: 316px;
+  height: 180px;
+  top: 762px;
+  left: 638px;
+}
+
+.home .PFP-CV {
+  position: absolute;
+  width: 1019px;
+  height: 586px;
+  top: 39px;
+  left: 31px;
+}
+
+.home .overlap-group {
+  position: absolute;
+  width: 359px;
+  height: 409px;
+  top: 105px;
+  left: 123px;
+}
+
+.home .clip-path-group {
+  position: absolute;
+  width: 344px;
+  height: 373px;
+  top: 35px;
+  left: 0;
+}
+
+.home .img {
+  position: absolute;
+  width: 236px;
+  height: 398px;
+  top: 0;
+  left: 63px;
+}
+
+.home .clip-path-group-2 {
+  position: absolute;
+  width: 265px;
+  height: 228px;
+  top: 180px;
+  left: 1px;
+}
+
+.home .clip-path-group-3 {
+  position: absolute;
+  width: 273px;
+  height: 235px;
+  top: 165px;
+  left: 14px;
+}
+
+.home .group {
+  position: absolute;
+  width: 25px;
+  height: 33px;
+  top: 16px;
+  left: 334px;
+  background-image: url(./img/group-66.png);
+  background-size: 100% 100%;
+}
+
+.home .overlap-2 {
+  position: absolute;
+  width: 235px;
+  height: 209px;
+  top: 105px;
+  left: 711px;
+}
+
+.home .overlap-group-wrapper {
+  position: absolute;
+  width: 235px;
+  height: 209px;
+  top: 0;
+  left: 0;
+}
+
+.home .overlap-group-2 {
+  position: relative;
+  height: 209px;
+}
+
+.home .clip-path-group-4 {
+  position: absolute;
+  width: 130px;
+  height: 114px;
+  top: 91px;
+  left: 105px;
+}
+
+.home .clip-path-group-5 {
+  position: absolute;
+  width: 145px;
+  height: 137px;
+  top: 0;
+  left: 0;
+}
+
+.home .clip-path-group-6 {
+  position: absolute;
+  width: 21px;
+  height: 24px;
+  top: 162px;
+  left: 199px;
+}
+
+.home .clip-path-group-7 {
+  position: absolute;
+  width: 19px;
+  height: 25px;
+  top: 128px;
+  left: 180px;
+}
+
+.home .clip-path-group-8 {
+  position: absolute;
+  width: 23px;
+  height: 18px;
+  top: 130px;
+  left: 194px;
+}
+
+.home .clip-path-group-9 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 105px;
+  left: 163px;
+}
+
+.home .clip-path-group-10 {
+  position: absolute;
+  width: 18px;
+  height: 23px;
+  top: 99px;
+  left: 174px;
+}
+
+.home .clip-path-group-11 {
+  position: absolute;
+  width: 22px;
+  height: 26px;
+  top: 84px;
+  left: 140px;
+}
+
+.home .clip-path-group-12 {
+  position: absolute;
+  width: 27px;
+  height: 25px;
+  top: 75px;
+  left: 154px;
+}
+
+.home .clip-path-group-13 {
+  position: absolute;
+  width: 15px;
+  height: 31px;
+  top: 64px;
+  left: 121px;
+}
+
+.home .clip-path-group-14 {
+  position: absolute;
+  width: 27px;
+  height: 22px;
+  top: 58px;
+  left: 128px;
+}
+
+.home .clip-path-group-15 {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 37px;
+  left: 105px;
+}
+
+.home .clip-path-group-16 {
+  position: absolute;
+  width: 149px;
+  height: 139px;
+  top: 37px;
+  left: 64px;
+}
+
+.home .clip-path-group-17 {
+  position: absolute;
+  width: 15px;
+  height: 29px;
+  top: 48px;
+  left: 99px;
+}
+
+.home .clip-path-group-18 {
+  position: absolute;
+  width: 18px;
+  height: 20px;
+  top: 189px;
+  left: 125px;
+}
+
+.home .clip-path-group-19 {
+  position: absolute;
+  width: 17px;
+  height: 21px;
+  top: 155px;
+  left: 118px;
+}
+
+.home .clip-path-group-20 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 159px;
+  left: 133px;
+}
+
+.home .clip-path-group-21 {
+  position: absolute;
+  width: 17px;
+  height: 19px;
+  top: 130px;
+  left: 111px;
+}
+
+.home .clip-path-group-22 {
+  position: absolute;
+  width: 17px;
+  height: 20px;
+  top: 129px;
+  left: 124px;
+}
+
+.home .clip-path-group-23 {
+  position: absolute;
+  width: 20px;
+  height: 23px;
+  top: 105px;
+  left: 100px;
+}
+
+.home .clip-path-group-24 {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  top: 104px;
+  left: 115px;
+}
+
+.home .clip-path-group-25 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 82px;
+  left: 89px;
+}
+
+.home .clip-path-group-26 {
+  position: absolute;
+  width: 22px;
+  height: 19px;
+  top: 81px;
+  left: 101px;
+}
+
+.home .clip-path-group-27 {
+  position: absolute;
+  width: 19px;
+  height: 22px;
+  top: 55px;
+  left: 86px;
+}
+
+.home .clip-path-group-28 {
+  position: absolute;
+  width: 83px;
+  height: 164px;
+  top: 39px;
+  left: 55px;
+}
+
+.home .clip-path-group-29 {
+  position: absolute;
+  width: 14px;
+  height: 25px;
+  top: 61px;
+  left: 77px;
+}
+
+.home .group-2 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 181px;
+  left: 0;
+  background-image: url(./img/group-22.png);
+  background-size: 100% 100%;
+}
+
+.home .group-3 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 181px;
+  left: 15px;
+  background-image: url(./img/group-39.png);
+  background-size: 100% 100%;
+}
+
+.home .group-4 {
+  position: absolute;
+  width: 7px;
+  height: 16px;
+  top: 181px;
+  left: 31px;
+  background-image: url(./img/group-56.png);
+  background-size: 100% 100%;
+}
+
+.home .group-5 {
+  position: absolute;
+  width: 3px;
+  height: 21px;
+  top: 175px;
+  left: 41px;
+  background-image: url(./img/group-43.png);
+  background-size: 100% 100%;
+}
+
+.home .group-6 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 181px;
+  left: 48px;
+  background-image: url(./img/group-34.png);
+  background-size: 100% 100%;
+}
+
+.home .group-7 {
+  position: absolute;
+  width: 13px;
+  height: 22px;
+  top: 181px;
+  left: 63px;
+  background-image: url(./img/group-37.png);
+  background-size: 100% 100%;
+}
+
+.home .overlap-3 {
+  position: absolute;
+  width: 182px;
+  height: 62px;
+  top: 190px;
+  left: 485px;
+}
+
+.home .group-8 {
+  position: absolute;
+  width: 76px;
+  height: 62px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/group-17.png);
+  background-size: 100% 100%;
+}
+
+.home .group-9 {
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  top: 29px;
+  left: 45px;
+  background-image: url(./img/group-9.png);
+  background-size: 100% 100%;
+}
+
+.home .group-10 {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 27px;
+  left: 72px;
+  background-image: url(./img/group-48.png);
+  background-size: 100% 100%;
+}
+
+.home .group-11 {
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  top: 29px;
+  left: 98px;
+  background-image: url(./img/group-33.png);
+  background-size: 100% 100%;
+}
+
+.home .group-12 {
+  position: absolute;
+  width: 25px;
+  height: 31px;
+  top: 29px;
+  left: 122px;
+  background-image: url(./img/group-52.png);
+  background-size: 100% 100%;
+}
+
+.home .group-13 {
+  position: absolute;
+  width: 36px;
+  height: 29px;
+  top: 29px;
+  left: 146px;
+  background-image: url(./img/group-41.png);
+  background-size: 100% 100%;
+}
+
+.home .group-14 {
+  position: absolute;
+  width: 5px;
+  height: 33px;
+  top: 121px;
+  left: 489px;
+  background-image: url(./img/group-57.png);
+  background-size: 100% 100%;
+}
+
+.home .group-15 {
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  top: 149px;
+  left: 498px;
+  background-image: url(./img/group-21.png);
+  background-size: 100% 100%;
+}
+
+.home .group-16 {
+  position: absolute;
+  width: 4px;
+  height: 33px;
+  top: 121px;
+  left: 521px;
+  background-image: url(./img/group-68.png);
+  background-size: 100% 100%;
+}
+
+.home .group-17 {
+  position: absolute;
+  width: 6px;
+  height: 11px;
+  top: 120px;
+  left: 531px;
+  background-image: url(./img/group-59.png);
+  background-size: 100% 100%;
+}
+
+.home .group-18 {
+  position: absolute;
+  width: 34px;
+  height: 25px;
+  top: 129px;
+  left: 542px;
+  background-image: url(./img/group-13.png);
+  background-size: 100% 100%;
+}
+
+.home .group-19 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 286px;
+  left: 510px;
+  background-image: url(./img/group-12.png);
+  background-size: 100% 100%;
+}
+
+.home .group-20 {
+  position: absolute;
+  width: 7px;
+  height: 16px;
+  top: 286px;
+  left: 533px;
+  background-image: url(./img/group-44.png);
+  background-size: 100% 100%;
+}
+
+.home .group-21 {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  top: 286px;
+  left: 542px;
+  background-image: url(./img/group-28.png);
+  background-size: 100% 100%;
+}
+
+.home .group-22 {
+  position: absolute;
+  width: 13px;
+  height: 22px;
+  top: 279px;
+  left: 558px;
+  background-image: url(./img/group-14.png);
+  background-size: 100% 100%;
+}
+
+.home .group-23 {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  top: 286px;
+  left: 574px;
+  background-image: url(./img/group.png);
+  background-size: 100% 100%;
+}
+
+.home .group-24 {
+  position: absolute;
+  width: 8px;
+  height: 19px;
+  top: 282px;
+  left: 589px;
+  background-image: url(./img/group-31.png);
+  background-size: 100% 100%;
+}
+
+.home .group-25 {
+  position: absolute;
+  width: 3px;
+  height: 21px;
+  top: 280px;
+  left: 600px;
+  background-image: url(./img/group-63.png);
+  background-size: 100% 100%;
+}
+
+.home .group-26 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 286px;
+  left: 606px;
+  background-image: url(./img/group-38.png);
+  background-size: 100% 100%;
+}
+
+.home .group-27 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 286px;
+  left: 621px;
+  background-image: url(./img/group-20.png);
+  background-size: 100% 100%;
+}
+
+.home .group-28 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 286px;
+  left: 642px;
+  background-image: url(./img/group-23.png);
+  background-size: 100% 100%;
+}
+
+.home .group-29 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 286px;
+  left: 658px;
+  background-image: url(./img/group-69.png);
+  background-size: 100% 100%;
+}
+
+.home .group-30 {
+  position: absolute;
+  width: 13px;
+  height: 22px;
+  top: 286px;
+  left: 673px;
+  background-image: url(./img/group-10.png);
+  background-size: 100% 100%;
+}
+
+.home .group-31 {
+  position: absolute;
+  width: 3px;
+  height: 21px;
+  top: 280px;
+  left: 690px;
+  background-image: url(./img/group-40.png);
+  background-size: 100% 100%;
+}
+
+.home .group-32 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 286px;
+  left: 696px;
+  background-image: url(./img/group-25.png);
+  background-size: 100% 100%;
+}
+
+.home .group-33 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 326px;
+  left: 531px;
+  background-image: url(./img/group-61.png);
+  background-size: 100% 100%;
+}
+
+.home .group-34 {
+  position: absolute;
+  width: 8px;
+  height: 19px;
+  top: 322px;
+  left: 544px;
+  background-image: url(./img/group-71.png);
+  background-size: 100% 100%;
+}
+
+.home .group-35 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 326px;
+  left: 555px;
+  background-image: url(./img/group-36.png);
+  background-size: 100% 100%;
+}
+
+.home .group-36 {
+  position: absolute;
+  width: 13px;
+  height: 22px;
+  top: 320px;
+  left: 570px;
+  background-image: url(./img/group-58.png);
+  background-size: 100% 100%;
+}
+
+.home .group-37 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 326px;
+  left: 586px;
+  background-image: url(./img/group-42.png);
+  background-size: 100% 100%;
+}
+
+.home .group-38 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 326px;
+  left: 602px;
+  background-image: url(./img/group-18.png);
+  background-size: 100% 100%;
+}
+
+.home .group-39 {
+  position: absolute;
+  width: 8px;
+  height: 19px;
+  top: 322px;
+  left: 616px;
+  background-image: url(./img/group-70.png);
+  background-size: 100% 100%;
+}
+
+.home .group-40 {
+  position: absolute;
+  width: 20px;
+  height: 15px;
+  top: 326px;
+  left: 632px;
+  background-image: url(./img/group-51.png);
+  background-size: 100% 100%;
+}
+
+.home .group-41 {
+  position: absolute;
+  width: 3px;
+  height: 21px;
+  top: 320px;
+  left: 655px;
+  background-image: url(./img/group-29.png);
+  background-size: 100% 100%;
+}
+
+.home .group-42 {
+  position: absolute;
+  width: 8px;
+  height: 19px;
+  top: 322px;
+  left: 660px;
+  background-image: url(./img/group-50.png);
+  background-size: 100% 100%;
+}
+
+.home .group-43 {
+  position: absolute;
+  width: 12px;
+  height: 22px;
+  top: 320px;
+  left: 671px;
+  background-image: url(./img/group-30.png);
+  background-size: 100% 100%;
+}
+
+.home .group-44 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 326px;
+  left: 693px;
+  background-image: url(./img/group-5.png);
+  background-size: 100% 100%;
+}
+
+.home .group-45 {
+  position: absolute;
+  width: 13px;
+  height: 21px;
+  top: 326px;
+  left: 716px;
+  background-image: url(./img/group-47.png);
+  background-size: 100% 100%;
+}
+
+.home .group-46 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 326px;
+  left: 732px;
+  background-image: url(./img/group-6.png);
+  background-size: 100% 100%;
+}
+
+.home .group-47 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 326px;
+  left: 747px;
+  background-image: url(./img/group-26.png);
+  background-size: 100% 100%;
+}
+
+.home .group-48 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 326px;
+  left: 761px;
+  background-image: url(./img/group-35.png);
+  background-size: 100% 100%;
+}
+
+.home .group-49 {
+  position: absolute;
+  width: 3px;
+  height: 21px;
+  top: 320px;
+  left: 777px;
+  background-image: url(./img/group-4.png);
+  background-size: 100% 100%;
+}
+
+.home .group-50 {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  top: 326px;
+  left: 783px;
+  background-image: url(./img/group-53.png);
+  background-size: 100% 100%;
+}
+
+.home .group-51 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 326px;
+  left: 800px;
+  background-image: url(./img/group-32.png);
+  background-size: 100% 100%;
+}
+
+.home .group-52 {
+  position: absolute;
+  width: 9px;
+  height: 22px;
+  top: 359px;
+  left: 551px;
+  background-image: url(./img/group-15.png);
+  background-size: 100% 100%;
+}
+
+.home .group-53 {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  top: 366px;
+  left: 561px;
+  background-image: url(./img/group-11.png);
+  background-size: 100% 100%;
+}
+
+.home .group-54 {
+  position: absolute;
+  width: 7px;
+  height: 16px;
+  top: 366px;
+  left: 578px;
+  background-image: url(./img/group-19.png);
+  background-size: 100% 100%;
+}
+
+.home .group-55 {
+  position: absolute;
+  width: 13px;
+  height: 22px;
+  top: 360px;
+  left: 594px;
+  background-image: url(./img/group-49.png);
+  background-size: 100% 100%;
+}
+
+.home .group-56 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 366px;
+  left: 610px;
+  background-image: url(./img/group-46.png);
+  background-size: 100% 100%;
+}
+
+.home .group-57 {
+  position: absolute;
+  width: 8px;
+  height: 19px;
+  top: 362px;
+  left: 624px;
+  background-image: url(./img/group-54.png);
+  background-size: 100% 100%;
+}
+
+.home .group-58 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 366px;
+  left: 635px;
+  background-image: url(./img/group-65.png);
+  background-size: 100% 100%;
+}
+
+.home .group-59 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 366px;
+  left: 657px;
+  background-image: url(./img/group-62.png);
+  background-size: 100% 100%;
+}
+
+.home .group-60 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 366px;
+  left: 672px;
+  background-image: url(./img/group-45.png);
+  background-size: 100% 100%;
+}
+
+.home .group-61 {
+  position: absolute;
+  width: 3px;
+  height: 21px;
+  top: 361px;
+  left: 687px;
+  background-image: url(./img/group-27.png);
+  background-size: 100% 100%;
+}
+
+.home .group-62 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 366px;
+  left: 694px;
+  background-image: url(./img/group-60.png);
+  background-size: 100% 100%;
+}
+
+.home .group-63 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 366px;
+  left: 709px;
+  background-image: url(./img/group-55.png);
+  background-size: 100% 100%;
+}
+
+.home .group-64 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 366px;
+  left: 724px;
+  background-image: url(./img/group-24.png);
+  background-size: 100% 100%;
+}
+
+.home .group-65 {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  top: 366px;
+  left: 739px;
+  background-image: url(./img/group-3.png);
+  background-size: 100% 100%;
+}
+
+.home .group-66 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 366px;
+  left: 761px;
+  background-image: url(./img/group-2.png);
+  background-size: 100% 100%;
+}
+
+.home .group-67 {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 366px;
+  left: 777px;
+  background-image: url(./img/group-64.png);
+  background-size: 100% 100%;
+}
+
+.home .group-68 {
+  position: absolute;
+  width: 13px;
+  height: 22px;
+  top: 360px;
+  left: 792px;
+  background-image: url(./img/group-8.png);
+  background-size: 100% 100%;
+}
+
+.home .group-69 {
+  position: absolute;
+  width: 18px;
+  height: 21px;
+  top: 361px;
+  left: 814px;
+  background-image: url(./img/group-67.png);
+  background-size: 100% 100%;
+}
+
+.home .group-70 {
+  position: absolute;
+  width: 3px;
+  height: 21px;
+  top: 361px;
+  left: 835px;
+  background-image: url(./img/group-16.png);
+  background-size: 100% 100%;
+}
+
+.home .group-71 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 378px;
+  left: 842px;
+  background-image: url(./img/group-7.png);
+  background-size: 100% 100%;
+}
+
+.home .overlap-wrapper {
+  position: absolute;
+  width: 466px;
+  height: 65px;
+  top: 498px;
+  left: 540px;
+}
+
+.home .div-wrapper {
+  position: relative;
+  width: 464px;
+  height: 65px;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+.home .p {
+  position: absolute;
+  width: 373px;
+  top: 17px;
+  left: 46px;
+  font-family: "Heebo-Medium", Helvetica;
+  font-weight: 500;
+  color: #883d3d;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-8 {
+  position: absolute;
+  top: 1005px;
+  left: 148px;
+  font-family: "Heebo-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.home .overlap-4 {
+  position: absolute;
+  width: 386px;
+  height: 72px;
+  top: 1084px;
+  left: 410px;
+}
+
+.home .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Heebo-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--dark-color);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-10 {
+  position: absolute;
+  width: 374px;
+  top: 38px;
+  left: 0;
+  font-family: "Heebo-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .overlap-5 {
+  position: absolute;
+  width: 374px;
+  height: 72px;
+  top: 1317px;
+  left: 410px;
+}
+
+.home .overlap-6 {
+  position: absolute;
+  width: 477px;
+  height: 72px;
+  top: 1568px;
+  left: 410px;
+}
+
+.home .hard-skills-python {
+  position: absolute;
+  top: 1819px;
+  left: 146px;
+  font-family: "Heebo-Bold", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .span {
+  font-weight: 700;
+}
+
+.home .text-wrapper-11 {
+  font-family: "Heebo-Regular", Helvetica;
+  font-size: 20px;
+}
+
+.home .soft-skills-time {
+  position: absolute;
+  top: 1819px;
+  left: 470px;
+  font-family: "Heebo-Bold", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-12 {
+  position: absolute;
+  width: 594px;
+  top: 1160px;
+  left: 410px;
+  font-family: "Heebo-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-13 {
+  position: absolute;
+  width: 594px;
+  top: 1393px;
+  left: 410px;
+  font-family: "Heebo-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-14 {
+  position: absolute;
+  width: 591px;
+  top: 1644px;
+  left: 410px;
+  font-family: "Heebo-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .vector {
+  width: 858px;
+  height: 1px;
+  top: 1282px;
+  left: 146px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .vector-2 {
+  width: 858px;
+  height: 1px;
+  top: 1528px;
+  left: 146px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .vector-3 {
+  width: 858px;
+  height: 1px;
+  top: 1776px;
+  left: 146px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .vector-4 {
+  width: 1px;
+  height: 277px;
+  top: 1833px;
+  left: 438px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .language-indonesian {
+  position: absolute;
+  top: 1819px;
+  left: 816px;
+  font-family: "Heebo-Bold", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .vector-5 {
+  width: 1px;
+  height: 277px;
+  top: 1833px;
+  left: 784px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home .whatsapp-image-2 {
+  top: 1318px;
+  left: 147px;
+  position: absolute;
+  width: 248px;
+  height: 180px;
+}
+
+.home .whatsapp-image-3 {
+  top: 1085px;
+  left: 146px;
+  position: absolute;
+  width: 248px;
+  height: 180px;
+}
+
+.home .screenshot {
+  position: absolute;
+  width: 248px;
+  height: 180px;
+  top: 1569px;
+  left: 147px;
+}
+
+.home .contact-information-wrapper {
+  position: absolute;
+  width: 1152px;
+  height: 188px;
+  top: 2158px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.home .contact-information {
+  position: absolute;
+  top: 49px;
+  left: 386px;
+  font-family: "Heebo-Bold", Helvetica;
+  font-weight: 400;
+  color: var(--dark-color);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-15 {
+  font-family: "Heebo-Regular", Helvetica;
+  font-size: 15px;
+}
