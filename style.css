@@ -80,8 +80,8 @@
 .home .text-wrapper-2 {
   position: absolute;
   width: 392px;
-  top: 0;
-  left: 0;
+  top: 18px;
+  left: 148px;
   font-family: "Heebo-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -184,7 +184,6 @@
   top: 75px;
   left: 148px;
   background-color: #ffffff;
-  border-radius: 10px;
 }
 
 .home .text-wrapper-8 {
@@ -215,7 +214,6 @@
   top: 75px;
   left: 586px;
   background-color: #ffffff;
-  border-radius: 10px;
 }
 
 .home .autonomous-VTOL {
