@@ -6,12 +6,6 @@ body {
   color: #21243D;
 }
 
-* {
-  box-shadow: none;
-  outline: none;
-  border: none;
-}
-
 .home {
   max-width: 1152px;
   margin: 0 auto;
@@ -132,9 +126,6 @@ body {
   display: flex;
   gap: 30px;
   margin-bottom: 40px;
-  border: none;
-  outline: none;
-  box-shadow: none;
 }
 
 .life-entry img {
