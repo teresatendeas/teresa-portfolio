@@ -77,20 +77,6 @@
   background-color: var(--primary);
 }
 
-.home .text-wrapper-2 {
-  position: absolute;
-  width: 392px;
-  top: 10px;
-  left: 165px;
-  font-family: "Heebo-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
 .home .text-wrapper-3 {
   position: absolute;
   width: 115px;
