@@ -72,7 +72,7 @@
 
 .home .overlap-2 {
   position: relative;
-  width: 1152px;
+  width: auto;
   height: 78px;
   background-color: var(--primary);
 }
@@ -144,7 +144,7 @@
 
 .home .overlap-3 {
   position: relative;
-  width: 1152px;
+  width: auto;
   height: 396px;
   background-color: #e5daf9;
 }
@@ -461,7 +461,7 @@
 
 .home .footer {
   position: absolute;
-  width: 1154px;
+  width: auto;
   height: 188px;
   top: 2158px;
   left: 0;
@@ -470,7 +470,7 @@
 
 .home .contact-information-wrapper {
   position: relative;
-  width: 1152px;
+  width: auto;
   height: 188px;
   background-color: #ffffff;
 }
