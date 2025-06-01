@@ -253,14 +253,6 @@
   white-space: nowrap;
 }
 
-.home .overlap-5 {
-  position: absolute;
-  width: 500px;
-  height: 72px;
-  top: 68px;
-  left: 264px;
-}
-
 .home .text-wrapper-9 {
   position: absolute;
   width: 500px;
@@ -285,6 +277,14 @@
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.home .overlap-5 {
+  position: absolute;
+  width: 500px;
+  height: 72px;
+  top: 68px;
+  left: 264px;
 }
 
 .home .overlap-6 {
