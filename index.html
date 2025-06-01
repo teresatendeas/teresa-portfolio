@@ -1,111 +1,97 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="home">
-      <div class="div">
-        <div class="overlap">
-          <img class="pfp" src="img/pfp.png" />
-          <div class="resume-button">
-            <div class="overlap-group"><p class="text-wrapper">Click here to see my resume!</p></div>
-          </div>
-          <header class="header">
-            <div class="overlap-2">
-              <div class="text-wrapper-2">Teresa Tendeas</div>
-              <div class="text-wrapper-3">About Me</div>
-              <div class="text-wrapper-4">Projects</div>
-              <div class="text-wrapper-5">Experiences</div>
-            </div>
-          </header>
-          <div class="featured">
-            <div class="overlap-3">
-              <div class="text-wrapper-6">Featured Projects</div>
-              <div class="text-wrapper-7">View all</div>
-              <div class="overlap-4">
-                <div class="text-wrapper-8">IntelliRest: Sleep Apnea Monitor</div>
-                <img class="featured-project" src="img/featured-project1.png" />
-              </div>
-              <div class="overlap-group-2">
-                <p class="autonomous-VTOL">Autonomous VTOL Drone<br />- KRTI 2024</p>
-                <img class="featured-project" src="img/featured-project2.png" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="life">
-        <p class="p">Not just projects. Come and delve into my life!</p>
-        <div class="overlap-5">
-            <p class="text-wrapper-9">Not just an ordinary student.</p>
-            <div class="text-wrapper-10">My university life</div>
-        </div>
-        <div class="overlap-6">
-            <div class="text-wrapper-9">In love with baking!</div>
-            <div class="text-wrapper-10">My hobby</div>
-        </div>
-        <div class="overlap-7">
-            <div class="text-wrapper-9">Improving skills wherever possible.</div>
-            <div class="text-wrapper-10">My passion</div>
-        </div>
-        <p class="hard-skills-python">
-            <span class="span">Hard Skills:<br /></span>
-            <span class="text-wrapper-11"
-            >Python<br />Dify<br />Machine Learning<br />Data Analytics<br />SQL<br />C++<br />Figma<br />DaVinci
-            Resolve</span
-            >
-        </p>
-        <p class="soft-skills-time">
-            <span class="span">Soft Skills:<br /></span>
-            <span class="text-wrapper-11"
-            >Time Management<br />Responsibility<br />Honesty<br />Analytical<br />Leadership<br />Critical
-            Thinking<br />Work Ethic<br />Willingness to Learn</span
-            >
-        </p>
-        <p class="text-wrapper-12">
-            Most university students focus on projects and schoolwork—and of course, I do too. But beyond that, I love
-            making the most of my time as a student by joining various organizations and competitions. I see it as a
-            way to grow while I still can, before life’s bigger responsibilities kick in.
-        </p>
-        <p class="text-wrapper-13">
-            In my spare time, aside from studying, I’ve grown to love baking and cooking for my family and friends.
-            Although this hobby only started a couple of years ago after COVID, I can honestly see myself doing it for
-            life.
-        </p>
-        <p class="text-wrapper-14">
-            My dad taught me the importance of responsibility and always being eager to learn, values I really live
-            by. Instead of spending time on games, I usually dive into learning new skills like coding and analysis,
-            and even this here... web design. After trying many things, I do feel a really strong passion towards data
-            science and AI.
-        </p>
-        <img class="horizontal" src="img/horizontal-3.svg" />
-        <img class="img" src="img/horizontal-2.svg" />
-        <img class="horizontal-2" src="img/horizontal-1.svg" />
-        <img class="vertical" src="img/vertical-1.svg" />
-        <img class="vertical-2" src="img/vertical-2.svg" />
-        <p class="language-indonesian">
-            <span class="span">Language:<br /></span> <span class="text-wrapper-11">Indonesian<br />English</span>
-        </p>
-        <img class="life-2" src="img/life-1.png" />
-        <img class="life-3" src="img/life-2.png" />
-        <img class="life-4" src="img/life-3.png" />
-        </div>
-        <footer class="footer">
-          <div class="contact-information-wrapper">
-            <p class="contact-information">
-              <span class="span">Contact Information:<br /></span>
-              <span class="text-wrapper-15"
-                >Phone: 081297498685<br />Email: teresatendeas@gmail.com<br />LinkedIn:
-                https://www.linkedin.com/in/teresatendeas/</span
-              >
-            </p>
-          </div>
-        </footer>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teresa Tendeas Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="home">
+    <header class="header">
+      <h1 class="name">Teresa Tendeas</h1>
+      <nav class="nav">
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#experiences">Experiences</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <img src="img/pfp.png" alt="Profile Picture" class="hero-img" />
+      <a href="#" class="resume-button">Click here to see my resume!</a>
+    </section>
+
+    <section class="featured-projects" id="projects">
+      <div class="section-header">
+        <h2>Featured Projects</h2>
+        <a href="#">View all</a>
       </div>
-    </div>
-  </body>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>IntelliRest: Sleep Apnea Monitor</h3>
+          <img src="img/featured-project1.png" alt="IntelliRest Project" />
+        </div>
+        <div class="project-card">
+          <h3>Autonomous VTOL Drone – KRTI 2024</h3>
+          <img src="img/featured-project2.png" alt="VTOL Project" />
+        </div>
+      </div>
+    </section>
+
+    <section class="life" id="about">
+      <h2 class="section-title">Not just projects. Come and delve into my life!</h2>
+      <div class="life-entry">
+        <img src="img/life-1.png" alt="University Life" />
+        <div class="life-info">
+          <h3>Not just an ordinary student.</h3>
+          <p class="subtitle">My university life</p>
+          <p>Most university students focus on projects and schoolwork—but beyond that, I love making the most of my time as a student by joining various organizations and competitions.</p>
+        </div>
+      </div>
+
+      <div class="life-entry">
+        <img src="img/life-2.png" alt="Baking Hobby" />
+        <div class="life-info">
+          <h3>In love with baking!</h3>
+          <p class="subtitle">My hobby</p>
+          <p>In my spare time, aside from studying, I’ve grown to love baking and cooking for my family and friends. Although this hobby only started after COVID, I can see myself doing it for life.</p>
+        </div>
+      </div>
+
+      <div class="life-entry">
+        <img src="img/life-3.png" alt="Learning Passion" />
+        <div class="life-info">
+          <h3>Improving skills wherever possible.</h3>
+          <p class="subtitle">My passion</p>
+          <p>My dad taught me the importance of responsibility and learning. I usually dive into new skills like coding, analysis, and web design. I found a strong passion for data science and AI.</p>
+        </div>
+      </div>
+
+      <div class="skills">
+        <div>
+          <h4>Hard Skills</h4>
+          <p>Python, Dify, Machine Learning, Data Analytics, SQL, C++, Figma, DaVinci Resolve</p>
+        </div>
+        <div>
+          <h4>Soft Skills</h4>
+          <p>Time Management, Responsibility, Honesty, Analytical, Leadership, Critical Thinking, Work Ethic, Willingness to Learn</p>
+        </div>
+        <div>
+          <h4>Language</h4>
+          <p>Indonesian, English</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="contact">
+        <h4>Contact Information</h4>
+        <p>Phone: 081297498685</p>
+        <p>Email: teresatendeas@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/teresatendeas/">teresatendeas</a></p>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
