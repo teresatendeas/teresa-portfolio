@@ -1,434 +1,59 @@
-.home {
+
+:root {
+  --primary: #f7cad8;
+  --dark-color: #21243D;
+}
+
+body {
   background-color: #fff2f8;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+  font-family: "Heebo", sans-serif;
+  color: var(--dark-color);
 }
 
-.home .div {
-  background-color: #fff2f8;
-  overflow: hidden;
-  width: 1152px;
-  height: 2346px;
-  position: relative;
+h1, h2, h3, h4, h5 {
+  color: var(--dark-color);
 }
 
-.home .overlap {
-  position: absolute;
-  width: 1160px;
-  height: 1000px;
-  top: 0;
-  left: 0;
+a {
+  color: #458af8;
 }
 
-.home .pfp {
-  position: absolute;
-  width: 1093px;
-  height: 615px;
-  top: 26px;
-  left: 39px;
-  object-fit: cover;
-}
-
-.home .resume-button {
-  position: absolute;
-  width: 466px;
-  height: 65px;
-  top: 498px;
-  left: 540px;
-}
-
-.home .overlap-group {
-  position: relative;
-  width: 464px;
-  height: 65px;
-  background-color: var(--primary);
-  border-radius: 10px;
-}
-
-.home .text-wrapper {
-  position: absolute;
-  width: 373px;
-  top: 17px;
-  left: 46px;
-  font-family: "Heebo-Medium", Helvetica;
-  font-weight: 500;
-  color: #883d3d;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .header {
-  position: absolute;
-  width: 1160px;
-  height: 78px;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-}
-
-.home .overlap-2 {
-  position: relative;
-  width: auto;
-  height: 78px;
-  background-color: var(--primary);
-}
-
-.home .text-wrapper-3 {
-  position: absolute;
-  width: 115px;
-  top: 27px;
-  left: 597px;
-  font-family: "Heebo-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 20px;
-  text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
+a:hover {
+  color: #3366cc;
   text-decoration: underline;
 }
 
-.home .text-wrapper-4 {
-  position: absolute;
-  width: 115px;
-  top: 27px;
-  left: 730px;
-  font-family: "Heebo-Medium", Helvetica;
+.btn-outline-danger {
+  background-color: var(--primary);
+  color: #883e3e;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.btn-outline-danger:hover {
+  background-color: #f5b8c6;
+  color: #661c1c;
+}
+
+.card-title {
+  color: var(--dark-color);
+  font-weight: 700;
+}
+
+.text-muted {
+  color: #7c63a5 !important;
+}
+
+footer {
+  background-color: #ffffff;
+  color: var(--dark-color);
+}
+
+footer a {
+  color: #21243D;
   font-weight: 500;
-  color: #000000;
-  font-size: 20px;
-  text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
-.home .text-wrapper-5 {
-  position: absolute;
-  width: 115px;
-  top: 27px;
-  left: 894px;
-  font-family: "Heebo-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 20px;
-  text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .featured {
-  position: absolute;
-  width: 1160px;
-  height: 396px;
-  top: 604px;
-  left: 0;
-}
-
-.home .overlap-3 {
-  position: relative;
-  width: auto;
-  height: 396px;
-  background-color: #e5daf9;
-}
-
-.home .text-wrapper-6 {
-  position: absolute;
-  height: 60px;
-  top: 7px;
-  left: 148px;
-  font-family: "Heebo-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--dark-color);
-  font-size: 22px;
-  letter-spacing: 0;
-  line-height: 60px;
-  white-space: nowrap;
-}
-
-.home .text-wrapper-7 {
-  position: absolute;
-  width: 208px;
-  top: 27px;
-  left: 796px;
-  font-family: "Heebo-Regular", Helvetica;
-  font-weight: 400;
-  color: #458af8;
-  font-size: 16px;
-  text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .overlap-4 {
-  position: absolute;
-  width: 418px;
-  height: 295px;
-  top: 75px;
-  left: 148px;
-  background-color: #ffffff;
-}
-
-.home .text-wrapper-8 {
-  position: absolute;
-  width: 374px;
-  top: 13px;
-  left: 23px;
-  font-family: "Heebo-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--dark-color);
-  font-size: 26px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .featured-project {
-  position: absolute;
-  width: 316px;
-  height: 180px;
-  top: 98px;
-  left: 51px;
-}
-
-.home .overlap-group-2 {
-  position: absolute;
-  width: 418px;
-  height: 295px;
-  top: 75px;
-  left: 586px;
-  background-color: #ffffff;
-}
-
-.home .autonomous-VTOL {
-  position: absolute;
-  width: 374px;
-  top: 13px;
-  left: 20px;
-  font-family: "Heebo-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--dark-color);
-  font-size: 26px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .life {
-  position: absolute;
-  width: 884px;
-  height: 1091px;
-  top: 1021px;
-  left: 147px;
-}
-
-.home .p {
-  position: absolute;
-  top: 0;
-  left: 2px;
-  font-family: "Heebo-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--dark-color);
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: 60px;
-  white-space: nowrap;
-}
-
-.home .text-wrapper-9 {
-  position: absolute;
-  width: 750px;
-  top: 0;
-  left: 0;
-  font-family: "Heebo-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--dark-color);
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .text-wrapper-10 {
-  position: absolute;
-  width: 374px;
-  top: 38px;
-  left: 0;
-  font-family: "Heebo-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--dark);
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .overlap-5 {
-  position: absolute;
-  width: 500px;
-  height: 72px;
-  top: 68px;
-  left: 264px;
-}
-
-.home .overlap-6 {
-  position: absolute;
-  width: 500px;
-  height: 72px;
-  top: 312px;
-  left: 264px;
-}
-
-.home .overlap-7 {
-  position: absolute;
-  width: 500px;
-  height: 72px;
-  top: 563px;
-  left: 264px;
-}
-
-.home .hard-skills-python {
-  position: absolute;
-  top: 814px;
-  left: 0;
-  font-family: "Heebo-Bold", Helvetica;
-  font-weight: 400;
-  color: var(--dark-color);
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .span {
-  font-weight: 700;
-}
-
-.home .text-wrapper-11 {
-  font-family: "Heebo-Regular", Helvetica;
-  font-size: 20px;
-}
-
-.home .soft-skills-time {
-  position: absolute;
-  top: 814px;
-  left: 324px;
-  font-family: "Heebo-Bold", Helvetica;
-  font-weight: 400;
-  color: var(--dark-color);
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .text-wrapper-12 {
-  position: absolute;
-  width: 594px;
-  top: 144px;
-  left: 264px;
-  font-family: "Heebo-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--dark-color);
-  font-size: 16px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .text-wrapper-13 {
-  position: absolute;
-  width: 594px;
-  top: 388px;
-  left: 264px;
-  font-family: "Heebo-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--dark-color);
-  font-size: 16px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .text-wrapper-14 {
-  position: absolute;
-  width: 591px;
-  top: 639px;
-  left: 264px;
-  font-family: "Heebo-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--dark-color);
-  font-size: 16px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .language-indonesian {
-  position: absolute;
-  top: 814px;
-  left: 670px;
-  font-family: "Heebo-Bold", Helvetica;
-  font-weight: 400;
-  color: var(--dark-color);
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .life-2 {
-  position: absolute;
-  width: 248px;
-  height: 180px;
-  top: 71px;
-  left: 0;
-  object-fit: cover;
-}
-
-.home .life-3 {
-  position: absolute;
-  width: 248px;
-  height: 180px;
-  top: 310px;
-  left: 0;
-  object-fit: cover;
-}
-
-.home .life-4 {
-  position: absolute;
-  width: 248px;
-  height: 180px;
-  top: 566px;
-  left: 0;
-  object-fit: cover;
-}
-
-.home .footer {
-  position: absolute;
-  width: auto;
-  height: 188px;
-  top: 2158px;
-  left: 0;
-  background-color: transparent;
-}
-
-.home .contact-information-wrapper {
-  position: relative;
-  width: auto;
-  height: 188px;
-  background-color: #ffffff;
-}
-
-.home .contact-information {
-  position: absolute;
-  top: 47px;
-  left: 148px;
-  font-family: "Heebo-Bold", Helvetica;
-  font-weight: 400;
-  color: var(--dark-color);
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.home .text-wrapper-15 {
-  font-family: "Heebo-Regular", Helvetica;
-  font-size: 15px;
+footer a:hover {
+  color: #555;
 }
