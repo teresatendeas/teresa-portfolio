@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Teresa Tendeas Portfolio</title>
+
+  <!-- Google Font: Italianno -->
   <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
@@ -13,22 +15,22 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Full-width Header -->
+  <header class="w-100 py-3" style="background-color: #f7cad8;">
+    <div class="container d-flex justify-content-between align-items-center px-4">
+      <h1 class="fw-bold fs-3 m-0" style="font-family: 'Italianno', cursive;">Teresa Tendeas</h1>
+      <nav>
+        <a href="#about" class="nav-link d-inline-block px-3 fw-bold text-decoration-underline">About Me</a>
+        <a href="#projects" class="nav-link d-inline-block px-3">Projects</a>
+        <a href="#experiences" class="nav-link d-inline-block px-3">Experiences</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
   <div class="container my-5">
 
-    <!-- Header -->
-    <header class="w-100 py-3" style="background-color: #f7cad8;">
-      <div class="d-flex justify-content-between align-items-center px-4">
-        <h1 class="fw-bold fs-3 m-0" style="font-family: 'Italianno', cursive;">Teresa Tendeas</h1>
-        <nav>
-          <a href="#about" class="nav-link d-inline-block px-3 fw-bold text-decoration-underline">About Me</a>
-          <a href="#projects" class="nav-link d-inline-block px-3">Projects</a>
-          <a href="#experiences" class="nav-link d-inline-block px-3">Experiences</a>
-        </nav>
-      </div>
-    </header>
-
-
-  <div class="container my-5">
     <!-- Hero Section -->
     <section class="text-center my-4">
       <img src="img/pfp.png" class="img-fluid rounded" alt="Profile Picture">
@@ -66,8 +68,8 @@
     <!-- About Life Section -->
     <section id="about" class="my-5">
       <h2 class="fs-4 mb-4 text-center">Not just projects. Come and delve into my life!</h2>
-
       <div class="row g-4">
+        <!-- Life entries -->
         <div class="col-md-4">
           <img src="img/life-1.png" class="img-fluid rounded" alt="University Life">
         </div>
@@ -112,8 +114,9 @@
       </div>
     </section>
   </div>
-    <!-- Footer -->
-  <footer class="border-top pt-4 mt-5 bg-white w-100">
+
+  <!-- Full-width Footer -->
+  <footer class="w-100 bg-white border-top mt-5">
     <div class="container text-center py-4">
       <h5>Contact Information</h5>
       <p>Phone: 081297498685</p>
