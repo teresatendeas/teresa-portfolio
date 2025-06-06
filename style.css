@@ -1,38 +1,55 @@
-
 :root {
   --primary: #f7cad8;
   --dark-color: #21243D;
+  --accent: #883e3e;
+  --hover-accent: #661c1c;
+  --link: #458af8;
+  --hover-link: #3366cc;
+  --muted: #7c63a5;
 }
 
 body {
   background-color: #fff2f8;
   font-family: "Heebo", sans-serif;
   color: var(--dark-color);
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   color: var(--dark-color);
+  font-weight: 700;
 }
 
 a {
-  color: #458af8;
+  color: var(--link);
+  text-decoration: none;
 }
 
 a:hover {
-  color: #3366cc;
+  color: var(--hover-link);
   text-decoration: underline;
 }
 
+/* Button Styling */
 .btn-outline-danger {
   background-color: var(--primary);
-  color: #883e3e;
+  color: var(--accent);
   border-color: transparent;
   border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 .btn-outline-danger:hover {
   background-color: #f5b8c6;
-  color: #661c1c;
+  color: var(--hover-accent);
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(187, 225, 250, 0.3);
 }
 
 .card-title {
@@ -41,16 +58,17 @@ a:hover {
 }
 
 .text-muted {
-  color: #7c63a5 !important;
+  color: var(--muted) !important;
 }
 
+/* Footer */
 footer {
   background-color: #ffffff;
   color: var(--dark-color);
 }
 
 footer a {
-  color: #21243D;
+  color: var(--dark-color);
   font-weight: 500;
 }
 
