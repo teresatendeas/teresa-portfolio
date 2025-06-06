@@ -45,19 +45,18 @@
 
     <!-- Modal -->
     <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="cvModalLabel">My Resume</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body text-center">
-            <img src="img/cv.png" alt="CV Image" class="img-fluid rounded shadow" />
+          <div class="modal-body">
+            <iframe src="img/cv.pdf" width="100%" height="600px" style="border:none;"></iframe>
           </div>
         </div>
       </div>
     </div>
-
 
 
     <!-- Featured Projects -->
@@ -88,8 +87,11 @@
 
     <!-- About Life Section -->
     <section id="about" class="my-5">
-      <h2 class="fs-4 mb-4 text-center fw-bold">Not just projects. Come and delve into my life!</h2>
+      <div style="background-color: #f7cad8; padding: 0.5rem; border-radius: 0.5rem;">
+        <h2 class="fs-4 mb-0 text-center fw-bold">Not just projects. Come and delve into my life!</h2>
+      </div>
       <div class="row g-4">
+
         <!-- Life entries -->
         <div class="col-md-4">
           <img src="img/life-1.png" class="img-fluid rounded" alt="University Life">
